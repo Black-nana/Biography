@@ -11,10 +11,6 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
-      // colors: {
-      //   "light-blue": colors.lightBlue,
-      //   cyan: colors.cyan,
-      // },
       fontFamily: {
         sans: ["Inter var", ...defaultTheme.fontFamily.sans],
       },
@@ -22,10 +18,22 @@ module.exports = {
     // rest of the code
   },
  
-  plugins: [require("@tailwindcss/aspect-ratio"), addVariablesForColors,require("daisyui")],
+  plugins: [require("@tailwindcss/aspect-ratio"), addVariablesForColors,require("daisyui"),
+require("tailwindcss"),
+require("autoprefixer"),],
+map:{
+  inline:false,
+
+},
+  variants: {
+    extend: {
+      backgroundColor: ["active"],
+      textColor: ["active"],
+    },
+}
 };
 
-function addVariablesForColors({ addBase, theme }: any) {
+function addVariablesForColors({ addBase, theme }) {
   let allColors = flattenColorPalette(theme("colors"));
   let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
