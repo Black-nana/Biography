@@ -4,8 +4,8 @@ import { SiCodingninjas } from 'react-icons/si';
 import { SiYoutubegaming } from 'react-icons/si';
 import { GiSoccerKick } from 'react-icons/gi';
 import { MdOutlineLocalMovies } from 'react-icons/md';
-// import image from '../assets/image/jonas-svidras-bgoE05DFF9U-unsplash.jpg'
-import image from '../assets/image/1.jpeg'
+
+
 import {motion} from 'framer-motion'
 
 type AboutFeartureProps = {

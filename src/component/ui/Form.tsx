@@ -3,6 +3,7 @@ import { Formik, Form as FormikForm, Field, ErrorMessage } from 'formik';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 interface FormValues {
   email: string;
 }
@@ -30,6 +31,7 @@ const Form: React.FC = () => {
             toast.success('Thank you for subscribing');
             setSubmitting(false);
           }, 400);
+          console.log(values);
         }}
       >
         {({ isSubmitting }) => (
