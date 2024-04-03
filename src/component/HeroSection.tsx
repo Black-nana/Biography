@@ -9,7 +9,7 @@ import FadeIn from '../Animations/FadeIn';
 
 const HeroSection = () => {
   return (
-    <div className="grid grid-cols-4 place-items-center h-[70vh] w-full ">
+    <div className="grid grid-cols-4 place-items-center h-[70vh] w-full bg-blue-900 ">
       
       <div className='flex col-span-3 w-full pl-16 '>
       <div>

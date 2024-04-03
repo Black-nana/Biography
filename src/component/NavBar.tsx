@@ -8,7 +8,7 @@ import {
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="navbar bg-transparent text-[#dde9fb]" id='navbar'>
+    <nav className="navbar bg-blue-800 text-[#e5e6e9] fixed z-50"  id='navbar'>
       <div className="navbar-start">
         <div className="dropdown">
           <button
