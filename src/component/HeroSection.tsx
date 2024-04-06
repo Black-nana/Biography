@@ -31,7 +31,7 @@ const HeroSection = () => {
         
      <FadeIn>
      <div className="capitalize ">
-        <p className="text-6xl font-sans font-medium text-[#dde9fb]">I am a web developer</p>
+        <p className="text-6xl font-sans font-medium text-[#f5f7fa]">I am a web developer</p>
         <p className="text-3xl font-bold text-[#dde9fb]">Abdul Mateen Kofi Yeboah</p>
         <p className="py-8 text-[#dde9fb]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctusnec ullamcorper mattis, pulvinar dapibus leop llamcorper, lorem ipsum.</p>
 
