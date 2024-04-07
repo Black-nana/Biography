@@ -8,7 +8,7 @@ const Client = () => {
   return (
     <div>
       <div className="flex flex-col justify-center items-center py-6 text-[#171b5a]">
-        <h1 className="font-semibold text-5xl ">
+        <h1 className="font-semibold text-5xl text-center ">
           What My Client Say's About Me
         </h1>
         <p className="w-3/4 text-center pt-6 pb-2 ">
@@ -18,9 +18,9 @@ const Client = () => {
       </div>
       <FadeIn>
         <div className="w-full grid place-items-center">
-          <div className="bg-pink-50 rounded-tr-full rounded-br-full grid place-items-center">
-            <div className="w-5/6 flex gap-10 p-8">
-              <div className="shadow-xl p-6 bg-slate-300 rounded-lg grid place-items-center">
+          <div className="w-full bg-pink-50 rounded-tr-full rounded-br-full grid place-items-center">
+            <div className="w-5/6 flex flex-col lg:flex gap-10 p-8">
+              <div className="w-full shadow-xl p-6 bg-slate-300 rounded-lg grid place-items-center">
                 <h1 className="text-2xl font-semibold text-[#090b2b] py-4">
                   <FaQuoteLeft className="text-3xl text-[#090b2b]" />
                 </h1>

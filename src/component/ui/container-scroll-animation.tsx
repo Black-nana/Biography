@@ -30,7 +30,7 @@ const ContainerScroll = () => {
 
   return (
     <div
-      className="h-[60rem] md:h-[80rem] flex items-center justify-center  p-2 md:p-20"
+      className="h-[40rem] md:h-[60rem] flex items-center justify-center  p-2 md:p-20 "
       ref={containerRef}
       id="about"
     >
@@ -40,7 +40,10 @@ const ContainerScroll = () => {
           perspective: "1000px",
         }}
       >
+        <div className="">
         <Header/>
+        </div>
+
         <AboutFearture  rotate={rotate}
           translate={translate}
           scale={scale}/>
@@ -56,7 +59,7 @@ export const Header = ({ translate }: any) => {
       style={{
         translateY: translate,
       }}
-      className="div max-w-5xl text-center"
+      className="div max-w-5xl text-center mx-auto"
     >
        <div className="flex flex-col justify-center items-center py-2">
         <h1 className="font-semibold text-7xl text-[#171b5a]">About Me</h1>

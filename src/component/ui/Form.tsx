@@ -35,13 +35,13 @@ const Form: React.FC = () => {
         }}
       >
         {({ isSubmitting }) => (
-          <FormikForm className='flex gap-2'>
+          <FormikForm className='flex-col  lg:flex'>
             <div>
               <Field
                 type="email"
                 name="email"
                 id="email"
-                className="border-2 p-2 text-blue-950 hover:border-purple-900 focus:border-purple-900 rounded-md"
+                className="w-full border-2 p-2 text-blue-950 hover:border-purple-900 focus:border-purple-900 rounded-md"
               />
               <ErrorMessage
                 name="email"
@@ -53,7 +53,7 @@ const Form: React.FC = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="text-white bg-purple-900 py-2 px-4 font-medium rounded-md hover:bg-purple-700 transition-all duration-300 ease-in-out"
+                className="w-full text-white bg-purple-900 py-2 px-4 font-medium rounded-md hover:bg-purple-700 transition-all duration-300 ease-in-out"
               >
                 Subscribe
               </button>

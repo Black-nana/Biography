@@ -5,7 +5,6 @@ import UI_UX from './ProgressBar/UI_UX';
 import WebDesigner from './ProgressBar/WebDesigner';
 import WebDeveloper from './ProgressBar/WebDeveloper';
 const WorkingExperience = () => {
- 
   return (
     <div className="w-full">
       <div className="flex flex-col justify-center items-center py-6">
@@ -20,7 +19,7 @@ const WorkingExperience = () => {
         <div className="w-32 h-1 bg-purple-700"></div>
       </div>
       <div className="w-full grid place-items-center my-4">
-        <div className="w-5/6 flex gap-10">
+        <div className="w-5/6 lg:flex gap-10">
           <div className="w-full shadow-xl p-8">
             <h1 className="text-2xl font-semibold text-[#090b2b] py-6">
               UI/UX Desinger
@@ -31,7 +30,7 @@ const WorkingExperience = () => {
               nulla veritatis commodi recusandae ut reprehenderit eaque
               explicabo nobis odio ducimus.
             </p>
-            <UI_UX/>
+            <UI_UX />
           </div>
           <div className="w-full shadow-xl p-8">
             <h1 className="text-2xl font-semibold text-[#090b2b] py-6">
@@ -43,12 +42,11 @@ const WorkingExperience = () => {
               nulla veritatis commodi recusandae ut reprehenderit eaque
               explicabo nobis odio ducimus.
             </p>
-            <WebDesigner/>
+            <WebDesigner />
           </div>
-         
         </div>
-        <div className='w-5/6 flex gap-10 my-6'>
-          <div className='shadow-xl p-6'>
+        <div className="w-5/6 lg:flex gap-10 my-6">
+          <div className="shadow-xl p-6">
             <h1 className="text-2xl font-semibold text-[#090b2b] py-6 ">
               web developer
             </h1>
@@ -58,9 +56,9 @@ const WorkingExperience = () => {
               nulla veritatis commodi recusandae ut reprehenderit eaque
               explicabo nobis odio ducimus.
             </p>
-            <WebDeveloper/>
+            <WebDeveloper />
           </div>
-          <div className='shadow-xl p-6'>
+          <div className="shadow-xl p-6">
             <h1 className="text-2xl font-semibold text-[#090b2b] py-6">
               Marketing
             </h1>
@@ -70,9 +68,9 @@ const WorkingExperience = () => {
               nulla veritatis commodi recusandae ut reprehenderit eaque
               explicabo nobis odio ducimus.
             </p>
-            <Marketing/>
+            <Marketing />
           </div>
-          <div className='shadow-xl p-6'>
+          <div className="shadow-xl p-6">
             <h1 className="text-2xl font-semibold text-[#090b2b] py-6">
               graphic designer
             </h1>
@@ -82,7 +80,7 @@ const WorkingExperience = () => {
               nulla veritatis commodi recusandae ut reprehenderit eaque
               explicabo nobis odio ducimus.
             </p>
-            <GraphicDesigner/>
+            <GraphicDesigner />
           </div>
         </div>
       </div>

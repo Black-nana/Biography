@@ -1,6 +1,7 @@
 // import About from './About';
 
 
+import AboutUsMobile from './AboutUsMobile';
 import Client from './Client';
 import Footer from './Footer';
 import HeroSection from './HeroSection';
@@ -19,7 +20,12 @@ const Home = () => {
       <HeroSection />
       <div className='z-10 text-slate-800 grid place-items-center'>
         {/* about feature is in the containerscroll */}
+        <div className='hidden lg:block  mb-20' >
         <ContainerScroll />
+        </div>
+        <div className="lg:hidden  py-20 mb-20">
+          <AboutUsMobile/>
+        </div>
         <Services/>
       </div>
       <div>

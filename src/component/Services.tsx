@@ -10,8 +10,8 @@ const Services = () => {
   return (
     <div className="w-full bg-pink-50 -mt-36 ">
       <div className="w-full bg-pink-100 rounded-r-[1000px] py-10">
-        <div className="flex flex-col justify-center items-center py-6">
-          <h1 className="font-semibold text-5xl text-[#171b5a]">
+        <div className="flex flex-col justify-center  tex-center items-center py-6">
+          <h1 className="font-semibold text-5xl text-[#171b5a] text-center">
             What Services Am I Providing
           </h1>
           <p className="w-3/4 text-center pt-6 pb-2 ">
@@ -21,7 +21,7 @@ const Services = () => {
         </div>
           <FadeIn>
         <div className="grid place-items-center w-full ">
-            <div className="grid grid-cols-3 gap-4 w-3/4">
+            <div className="grid lg:grid-cols-3 gap-4 w-3/4">
               <div className="flex flex-col justify-center items-center border-2 p-6 shadow-sm bg-slate-100">
                 <div className="grid place-items-center">
                   <span>
@@ -73,7 +73,7 @@ const Services = () => {
           </FadeIn>
 
         {/* image bg with text */}
-        <div className="w-full py-10 my-10 relative">
+        <div className="w-full py-10 my-10 hidden lg:block relative">
           <div>
             <img
               src={image}

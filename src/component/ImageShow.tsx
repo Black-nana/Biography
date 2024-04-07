@@ -57,7 +57,7 @@ const ImageShow: React.FC = () => {
     return (
         <div className='my-6' id='image-show'>
         <div className="flex flex-col justify-center items-center py-6 text-[#171b5a]">
-        <h1 className="font-semibold text-7xl">Image Show-Case</h1>
+        <h1 className="font-semibold text-5xl text-center">Image Show Case</h1>
         <p className="w-3/4 text-center pt-6 pb-2 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla
           veritatis commodi recusandae ut reprehenderit eaque explicabo nobis

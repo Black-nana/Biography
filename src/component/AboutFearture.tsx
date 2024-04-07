@@ -22,12 +22,12 @@ const AboutFearture: React.FC<AboutFeartureProps> = ({rotate,scale,translate}) =
       scale: scale,//scale
       translateY: translate,//translate in y-axis
     }}
-    className="w-full bg-[#fffefe] rounded-lg shadow-2xl p-8 border-2 "
+    className="w-full bg-[#fffefe] rounded-lg shadow-2xl border-2 py-10"
     >
       
-      <div className="w-ful grid place-items-center py-6">
-        <div className="w-11/12 grid grid-cols-2  gap-4 ">
-          <div className="w-full flex flex-col gap-6 border-2 p-4 rounded-lg shadow-md hover:scale-105 transition-all duration-300 cursor-pointer">
+      <div className="w-ful grid place-items-center">
+        <div className="w-11/12 grid lg:grid-cols-2   gap-4 ">
+          <div className="w-full flex flex-col gap-6 border-2 p-4 rounded-lg  cursor-pointer">
             <div>
               <h2 className="font-semibold text-2xl text-[#171b5a] pb-4 capitalize">
                 <RxHobbyKnife className="w-10 h-10  inline-block text-[#e8d741]" />
@@ -90,7 +90,7 @@ const AboutFearture: React.FC<AboutFeartureProps> = ({rotate,scale,translate}) =
             </div>
           </div>
 
-          <div className="w-full flex flex-col gap-6 border-2 p-4 rounded-lg shadow-md hover:scale-105 transition-all duration-300 cursor-pointer">
+          <div className="w-full flex flex-col gap-6 border-2 p-4 rounded-lg shadow-md  cursor-pointer">
             <div>
               <h2 className="font-semibold text-2xl text-[#171b5a] pb-4 capitalize">
                 <GiHobbitDwelling className="w-10 h-10  inline-block text-[#e8d741]" />
