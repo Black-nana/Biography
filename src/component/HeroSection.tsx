@@ -9,7 +9,7 @@ import FadeIn from '../Animations/FadeIn';
 const HeroSection = () => {
   return (
     <div className="py-20 grid lg:grid-cols-4 place-items-center lg:h-[70vh] w-full bg-blue-900 ">
-      <div className="flex-col lg:flex col-span-3 w-full pl-16 ">
+      <div className=" lg:flex col-span-3 w-full pl-16 ">
         <div className=''>
           <ul className="flex gap-6 lg:flex-col col-span-1 mx-6 text-[#dde9fb]">
             <li className=" text-3xl cursor-pointer hover:text-[#e8d741] hover:scale-150 transition-all duration-300">
