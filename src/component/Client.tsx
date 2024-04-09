@@ -19,7 +19,7 @@ const Client = () => {
       <FadeIn>
         <div className="w-full grid place-items-center">
           <div className="w-full bg-pink-50 rounded-tr-full rounded-br-full grid place-items-center">
-            <div className="w-5/6 flex flex-col lg:flex gap-10 p-8">
+            <div className="w-5/6 grid lg:grid lg:grid-cols-3 gap-10 p-8">
               <div className="w-full shadow-xl p-6 bg-slate-300 rounded-lg grid place-items-center">
                 <h1 className="text-2xl font-semibold text-[#090b2b] py-4">
                   <FaQuoteLeft className="text-3xl text-[#090b2b]" />
