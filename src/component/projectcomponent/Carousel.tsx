@@ -1,4 +1,4 @@
-import React from 'react'
+
 import EmblaCarousel from './EmblaCarousel'
 import { EmblaOptionsType } from 'embla-carousel'
 import "./style.css"
