@@ -35,7 +35,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           {slides.map((item, index) => (
             <div key={index} className='w-full flex-none items-center justify-center h-96'>
             <p className='text-center'>
-            <a href='https://ecommerce-henna-phi-31.vercel.app' target='_blank' className='text-slate-800 text-center'>click here to visie project
+            <a href='https://ecommerce-henna-phi-31.vercel.app' target='_blank' className='text-slate-800 text-center'>click here to visite project
               </a>
             </p>
             <img src={item.src} alt=""  className="flex-none w-full  " />
