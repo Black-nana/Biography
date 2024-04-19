@@ -7,9 +7,11 @@ import Footer from './Footer';
 import HeroSection from './HeroSection';
 import ImageShow from './ImageShow';
 import NavBar from './NavBar';
+
 import Services from './Services';
 import Subscribe from './Subscribe';
 import WorkingExperience from './WorkingExperience';
+import Carousel from './projectcomponent/Carousel';
 import ContainerScroll from './ui/container-scroll-animation';
 
 const Home = () => {
@@ -31,6 +33,7 @@ const Home = () => {
       <div>
         <WorkingExperience/>
         <Client/>
+    <Carousel/>
         <ImageShow/>
       </div>
       <div>
